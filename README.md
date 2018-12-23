@@ -1,29 +1,21 @@
-# web.flisol-cancun
+# template for Web site Flisol Cancún
 
-## Project setup
+## Requisitos 
+
+- Tener instalado nodejs y npm
+- Tener instalado vuejs
+
+## Descarga el repo e instala los paquetes
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compila el proyecto para desarrollo
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilalo y minificalo para producción
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
