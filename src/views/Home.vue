@@ -1,106 +1,13 @@
 <template>
   <div class="home">
     <banner></banner>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <about-section></about-section>
+    <join-us></join-us>
+    <footer class="main-footer">
+      <div class="fl-container">
+        Hecho con &#9829; en Cancún
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -108,12 +15,16 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 import Banner from '@/components/Banner.vue';
+import AboutSection from '@/components/AboutSection.vue';
+import JoinUs from '@/components/JoinUs.vue';
 
 export default {
   name: 'home',
   components: {
     HelloWorld,
-    Banner
+    Banner,
+    AboutSection,
+    JoinUs
   }
 }
 </script>

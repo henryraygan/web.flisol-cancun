@@ -23,7 +23,7 @@
 
 .banner {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     background : #000;
     img {
@@ -42,6 +42,7 @@
         align-items: center;
         position: relative;
         color: #FFF;
+        line-height: 1.8;
     }
 
     &__title {
