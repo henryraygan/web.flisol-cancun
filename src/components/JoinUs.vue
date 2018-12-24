@@ -78,7 +78,7 @@ export default {
   &__content {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 5rem;
   }
 
@@ -101,12 +101,6 @@ export default {
       color: #343a40;
       margin: 0.5rem 0;
     }
-  }
-}
-
-@media (max-width: 40em) {
-  body {
-    background: red;
   }
 }
 </style>

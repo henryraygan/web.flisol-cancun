@@ -2,17 +2,22 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 :root {
     --primary-color: #214760;
     --second-color: #FE8E29;
 
-    --breakpoint-xs     : 0;
-    --breakpoint-sm     : 576px;
-    --breakpoint-md     : 768px;
-    --breakpoint-lg     : 992px;
-    --breakpoint-xl     : 1200px;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
+div {
+    outline: red;
 }
 
 a {
@@ -81,3 +86,24 @@ button:focus {
     color: #FFF;
     padding: 2rem 0;
 }
+
+
+
+
+
+
+
+@media (min-width: 992px) { 
+    body {
+        background: palegoldenrod;
+    }
+    .joinus-section__content {
+        grid-template-columns: repeat(2,1fr);
+    }
+ }
+
+@media (min-width: 1200px) { 
+    body {
+        background: orchid;
+    }
+ }

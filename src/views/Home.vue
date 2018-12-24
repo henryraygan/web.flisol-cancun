@@ -3,6 +3,7 @@
     <banner></banner>
     <about-section></about-section>
     <join-us></join-us>
+    <program></program>
     <footer class="main-footer">
       <div class="fl-container">
         Hecho con &#9829; en Cancún
@@ -17,6 +18,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import Banner from '@/components/Banner.vue';
 import AboutSection from '@/components/AboutSection.vue';
 import JoinUs from '@/components/JoinUs.vue';
+import Program from '@/components/Program.vue';
 
 export default {
   name: 'home',
@@ -24,7 +26,8 @@ export default {
     HelloWorld,
     Banner,
     AboutSection,
-    JoinUs
+    JoinUs,
+    Program
   }
 }
 </script>
