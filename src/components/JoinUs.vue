@@ -48,60 +48,65 @@
 </template>
 
 <script>
-    export default {
-        name: 'JoinUs'
-    }
+export default {
+  name: "JoinUs"
+};
 </script>
 
 <style lang="scss">
-    .joinus-section {
-        width: 100%;
-        background-color: #000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        .title-section {
-            color: #FFF;
-        }
-        .fl-container {
-            padding: 2rem 0;    
-        }
-        img {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: .22;
-        }
+.joinus-section {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .title-section {
+    color: #fff;
+  }
+  .fl-container {
+    padding: 2rem 0;
+  }
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.22;
+  }
 
-        &__content {
-            position: relative;
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-gap: 5rem;
-        }
+  &__content {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+  }
 
-        &__item {
-            padding: 1rem;
-            border-radius: .25rem;
-            background-color: #FFF;
-            box-shadow: 0 0 25px 0 rgba(0,0,0,.05);
-            border: 1px solid #dee2e6;
-            display: flex;
-            flex-direction: column;
-            .title {
-                font-size: .875rem;
-                text-transform: uppercase;
-                text-align: center;
-                margin-bottom: 1rem;
-            }
-            .subtitle {
-                line-height: 1.5;
-                color: #343a40;
-                margin: .5rem 0;
-            }
-        }
-
+  &__item {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+    .title {
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 1rem;
     }
+    .subtitle {
+      line-height: 1.5;
+      color: #343a40;
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+@media (max-width: 40em) {
+  body {
+    background: red;
+  }
+}
 </style>
