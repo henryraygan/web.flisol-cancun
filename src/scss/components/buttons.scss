@@ -1,0 +1,29 @@
+button:focus {
+    outline: 0;
+}
+
+.button,
+[class*="button-"] {
+    display: inline-block;
+    line-height: 2;
+    padding: 0 0.5rem;
+    text-decoration: none;
+    color: white;
+    border: 0;
+    border-radius: .15rem;
+    cursor: pointer;
+}
+
+.button--primary {
+    background: var(--primary-color);
+}
+
+.button--secondary {
+    background: var(--second-color);
+}
+
+
+.button--large {
+    line-height: 2.3;
+    padding: 1rem 1.5rem;
+}

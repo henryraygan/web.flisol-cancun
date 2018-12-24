@@ -1,0 +1,161 @@
+.main-logo {
+    width: 70px;
+    transition: width .1s ease-in;
+    margin: .22rem 0;
+    @include desktop {
+        margin: 2rem 0;
+    }
+}
+
+.main-nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    width: 100%;
+    background: #FFF;
+    color: #000;
+    transition: all .1s ease-in; 
+    
+    
+    .button-ticket {
+        display: none;
+    }
+
+    @include desktop {
+        background: transparent;
+        color: #FFF;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        padding: 1rem 0;
+        height: 80px;
+        .button-ticket {
+            display: block;
+            margin-right: 1rem;
+            height: 50px;
+        }
+        &.is-scrolled {
+            background-color: rgba(255,255,255,.98);
+            border-bottom: 1px solid rgba(0,0,0,.09);
+            color: rgba(0,0,0,.9);
+            padding: .5rem 0;
+            height: 75px;
+            .main-logo {
+                width: 60px;
+            }
+        }    
+    }
+    
+}
+
+.main-brand {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(119, 119, 119, 0.21);
+    @include desktop {
+        border-bottom: 1px solid transparent;
+    }
+}
+
+.collapse-menu {
+    @include phone {
+        width: 100%;
+    }
+    overflow: hidden;
+    padding: .22rem 1rem;
+    display: none;
+    height: 0;
+    transition: all 1s ease-in-out;
+    &.show {
+        display: block;
+        height: auto;
+        @include phone {
+            border-bottom: 1px solid rgba(119, 119, 119, 0.21);
+        }
+    }
+
+    @include desktop {
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+.navbar-toggler {
+    border: 0;
+    width: 35px;
+    height: 20px;
+    border-radius: 2px;
+    position: relative;
+    background-color: transparent;
+    div {
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: #000;
+        position: absolute;
+        transition: .1s cubic-bezier(0.4, 0, 1, 1);
+        &:first-child {
+            top: 0;
+        }
+        &:nth-child(2) {
+            top: 50%;
+        }
+        &:nth-child(3) {
+            top: 100%;
+        }
+    }
+
+    &.show {
+        div {
+            &:first-child {
+                top: 50%;
+                transform: rotate(45deg);
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:last-child {
+                top: 50%;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+
+    @include desktop {
+        display: none;
+    }
+}
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+
+    @include desktop {
+        display: flex;
+    }
+
+    &-item {
+        padding: .77rem 0;
+        position: relative;
+        text-transform: uppercase;
+        font-size: 0.6875rem;
+        font-weight: 600;
+        padding: 1em 1.5em;
+        @include desktop {
+            padding: 0 1rem;   
+            letter-spacing: 0.09375rem;
+        }
+    }
+    
+}

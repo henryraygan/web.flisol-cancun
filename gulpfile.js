@@ -5,12 +5,13 @@ var sass = require('gulp-sass');
  
 sass.compiler = require('node-sass');
  
-gulp.task('sass', function () {
-  return gulp.src('./src/scss/**/*.scss')
+gulp.task('styles', function () {
+  return gulp.src('./src/scss/master.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./public/css/master.css'));
+    .pipe(gulp.dest('./public/css/'));
 });
  
-gulp.task('sass', function () {
-  gulp.watch('./sass/**/*.scss', ['sass']);
-});
+
+gulp.task('default', function() {
+  gulp.watch('./src/scss/**/*.scss', gulp.series('styles'));
+})
