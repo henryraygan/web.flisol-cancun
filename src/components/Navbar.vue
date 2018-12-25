@@ -35,7 +35,7 @@
             </ul>
         </div>
         <button class="button-ticket button--secondary">
-            Get your tickets
+            Entradas
         </button>
     </nav>
 </template>

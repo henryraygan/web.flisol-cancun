@@ -13,37 +13,28 @@
     flex-direction: column;
     z-index: 1000;
     width: 100%;
-    background: #FFF;
-    color: #000;
-    transition: all .1s ease-in; 
-    
-    
+    background: #FFF;  
+    transition: all .3s ease;  
     .button-ticket {
         display: none;
     }
 
     @include desktop {
         background: transparent;
-        color: #FFF;
         flex-direction: row;
         justify-content: space-between;
         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-        padding: 1rem 0;
+        padding: 2rem 0;
         height: 80px;
+        color: #FFF;
         .button-ticket {
-            display: block;
-            margin-right: 1rem;
-            height: 50px;
+            display: inline-block;
         }
         &.is-scrolled {
+            color: #000;
             background-color: rgba(255,255,255,.98);
             border-bottom: 1px solid rgba(0,0,0,.09);
-            color: rgba(0,0,0,.9);
             padding: .5rem 0;
-            height: 75px;
-            .main-logo {
-                width: 60px;
-            }
         }    
     }
     
