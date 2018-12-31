@@ -5,13 +5,23 @@ button:focus {
 .button,
 [class*="button-"] {
     display: inline-block;
-    line-height: 2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
     padding: 0 0.5rem;
     text-decoration: none;
+    letter-spacing: .125rem;
     color: white;
     border: 0;
     border-radius: .125rem;
     cursor: pointer;
+
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .button--primary {
@@ -23,7 +33,7 @@ button:focus {
 }
 
 .button--small {
-    font-size: .5625rem;
+    font-size: .6625rem;
     padding: .625rem 1rem;
 }
 

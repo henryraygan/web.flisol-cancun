@@ -41,7 +41,6 @@ export default {
         margin: 2rem 0;
         line-height: 1.5;
         padding: 2rem 0;
-        text-align: justify;
         p {
             margin-bottom: 1rem;
         }

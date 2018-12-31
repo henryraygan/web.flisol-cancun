@@ -1,47 +1,46 @@
 <template>
     <section class="joinus-section">
-        <img src="https://1.bp.blogspot.com/-J3Ydb8nxu0g/Vxznv7Vvd7I/AAAAAAAAF_I/e3pnKh9G0XAN7Sa6pGmCxXaQ9EjSgQW0ACLcB/s1600/2016-04-23%2B13.32.28.jpg" alt="">
         <div class="fl-container">
             <h2 class="title-section">
                 Participa en el evento
             </h2>
             <div class="joinus-section__content">
                 <div class="joinus-section__item">
-                    <h3 class="title">Patrocinador</h3>
-                    <p class="subtitle">
-                        FLISOL es un evento sin ánimo de lucro, los organizadores no buscamos ningún beneficio económico con la realización del evento
-                    </p>
-                    <button class="button--primary">
-                        Consulta el Call for sponsor
-                    </button>                    
+                    <img src="https://images.pexels.com/photos/1483907/pexels-photo-1483907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    <a href="" class="joinus-section__link">
+                        <h3 class="title">Patrocinador</h3>
+                        <p class="subtitle">
+                            Consulta el Call for Sponsor
+                        </p> 
+                    </a>             
                 </div>
                 <div class="joinus-section__item">
-                    <h3 class="title">Ponencia</h3>
-                    <p class="subtitle">
-                        FLISOL es un evento sin ánimo de lucro, los organizadores no buscamos ningún beneficio económico con la realización del evento
-                    </p>
-                    <button class="button--primary">
-                        Consulta el Call for sponsor
-                    </button>                       
+                    <img src="https://images.pexels.com/photos/716276/pexels-photo-716276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    <a href="" class="joinus-section__link">
+                        <h3 class="title">Ponencia</h3>
+                        <p class="subtitle">
+                            Envía una propuesta!
+                        </p> 
+                    </a>                
                 </div>
                 <div class="joinus-section__item">
-                    <h3 class="title">Proyectos</h3>
-                    <p class="subtitle">
-                        FLISOL es un evento sin ánimo de lucro, los organizadores no buscamos ningún beneficio económico con la realización del evento
-                    </p>
-                    <button class="button--primary">
-                        Consulta el Call for sponsor
-                    </button>                       
+                    <img src="https://images.pexels.com/photos/1483937/pexels-photo-1483937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    <a href="" class="joinus-section__link">
+                        <h3 class="title">Proyectos</h3>
+                        <p class="subtitle">
+                            Compate un proyecto!
+                        </p>  
+                    </a>                   
                 </div>
                 <div class="joinus-section__item">
-                    <h3 class="title">Taller</h3>
-                    <p class="subtitle">
-                        FLISOL es un evento sin ánimo de lucro, los organizadores no buscamos ningún beneficio económico con la realización del evento
-                    </p>
-                    <button class="button--primary">
-                        Consulta el Call for sponsor
-                    </button>                       
-                </div>
+                    <img src="https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    <a href="" class="joinus-section__link">
+                        <h3 class="title">Taller</h3>
+                        <p class="subtitle">
+                            Imparte un taller
+                        </p> 
+                    </a>             
+                </div> 
             </div>
         </div>
     </section>

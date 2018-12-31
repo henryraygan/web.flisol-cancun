@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <banner></banner>
-    <about-section></about-section>
     <join-us></join-us>
+    <about-section></about-section>
     <program></program>
     <footer class="main-footer">
       <div class="fl-container">

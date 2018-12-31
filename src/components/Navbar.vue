@@ -3,8 +3,9 @@
     <div class="fl-container">
         <div class="main-nav-content">
             <div class="main-brand">
-                <a class="navbar-brand" href="#">
-                <img class="main-logo" src="/images/FLISOL-LOGO-PNG.png" alt="">
+            <a class="navbar-brand" href="#">
+                <img class="main-logo" src="../assets/images/FLISOL-LOGO-PNG.png" alt="">
+                <span>Flisol Cancún</span>
             </a>
                 <button :class="{'navbar-toggler': true, 'show': isShowMenu}" @click="showMenu">
                 <div></div>

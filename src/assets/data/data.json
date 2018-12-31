@@ -1,0 +1,54 @@
+{
+    "nav": [
+        {
+            "name": "Inicio",
+            "reditecto": ""
+        },
+        {
+            "name": "Aprende sobre Flisol",
+            "reditecto": ""
+        }, 
+        {
+            "name": "Organizadores",
+            "reditecto": ""
+        },
+        {
+            "name": "Contacto",
+            "reditecto": ""
+        }
+    ],
+    "header": {
+        "calltoaction": "Entradas"
+    },
+    "banner": {
+        "title": "FLISOL CANCÚN 2019",
+        "subtitle": "FESTIVAL LATINOAMERICANO DE INSTALACIÓN DE SOFTWARE LIBRE",
+        "dates": "27 de Abril de 2019"
+    },
+    "howto_participate": [
+        {
+            "title": "Patrocinador",
+            "message": "FLISOL es un evento sin ánimo de lucro, los organizadores no buscamos ningún beneficio económico con la realización del evento",
+            "button_message": "Aplicar",
+            "doc_file": ""
+        },
+        {
+            "title": "",
+            "message": "",
+            "button_message": "",
+            "doc_file": ""
+        },
+        {
+            "title": "",
+            "message": "",
+            "button_message": "",
+            "doc_file": ""
+        },
+        {
+            "title": "",
+            "message": "",
+            "button_message": "",
+            "doc_file": ""
+        }
+    ]
+}
