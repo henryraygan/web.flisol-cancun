@@ -3,7 +3,7 @@
     <div class="fl-container">
         <div class="main-nav-content">
             <div class="main-brand">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#home">
                 <img class="main-logo" src="../assets/images/FLISOL-LOGO-PNG.png" alt="">
                 <span>Flisol Cancún</span>
             </a>
@@ -16,30 +16,32 @@
             <div :class="{'collapse-menu': true, 'show': isShowMenu}">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="#home" class="nav-link">
                         Inicio
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
-                        Aprende sobre flisol
+                        <a href="#sobre-flisol" class="nav-link">
+                        Sobre FLISoL
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="#organizadores" class="nav-link">
                         Organizadores
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="#contacto" class="nav-link">
                         Contacto
                     </a>
                     </li>
                 </ul>
             </div>
-            <button class="button-ticket button--secondary button--small">
-                Entradas
-            </button>
+            <a
+            href="#participa" 
+            class="button-ticket button--secondary button--small">
+                Participa
+            </a>
         </div>
     </div>
 </nav>
@@ -57,7 +59,6 @@ export default {
     methods: {
         handleScroll() {
             this.scrolled = window.scrollY > 0;
-            console.log(this.scrolled)
         },
         showMenu() {
             this.isShowMenu = !this.isShowMenu;

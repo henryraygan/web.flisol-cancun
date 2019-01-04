@@ -1,5 +1,5 @@
 <template>
-    <section class="about-section">
+    <section class="about-section" id="sobre-flisol">
         <div class="fl-container">
             <h2 class="title-section">
             Sobre el evento

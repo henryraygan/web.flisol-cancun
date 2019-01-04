@@ -1,0 +1,71 @@
+.section-team {
+    margin-bottom: 6rem;
+    padding: 1em 0;
+}
+.team {
+    --column: 3; 
+    display: grid;
+    grid-template-columns: repeat(var(--column),1fr);
+    grid-gap: 3rem;
+    padding-top: 3rem;
+    @include phone {
+        --column: 1;
+    }
+    &-item {
+        transition: all .15s ease;
+        border-radius: .5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #495057;
+        padding: 1em;
+    }
+    &-name {
+        font-size: .99rem;
+        font-weight: bold;
+        margin-bottom: .55rem;
+        color: var(--primary-color);
+    }
+    &-bio {
+        margin-top: .85rem;
+        font-size: .85rem;
+    }
+    &-photo {
+        --size: 120px;
+        width: var(--size);
+        height: var(--size);
+        border-radius: 100%;
+        margin-bottom: 1rem;
+        object-fit: cover;
+        object-position: top;
+    }
+}   
+
+
+.section-sponsors {
+    padding: 4rem 0;
+    background-color: #f6f8fa;
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    @include phone {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+.sponsor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 200px;
+        @include phone {
+            width: 100%;
+        }
+    }
+}

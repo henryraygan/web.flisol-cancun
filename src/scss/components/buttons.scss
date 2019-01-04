@@ -32,6 +32,26 @@ button:focus {
     background: var(--second-color);
 }
 
+.button--outline-primary {
+    color: var(--primary-color);
+    background: none;
+    border: 1px solid;
+    &:hover {
+        background-color: var(--primary-color);
+        color: #FFF;
+    }
+}
+
+.button--outline-secondary {
+    color: var(--second-color);
+    background: none;
+    border: 1px solid;
+    &:hover {
+        background-color: var(--second-color);
+        color: #FFF;
+    }
+}
+
 .button--small {
     font-size: .6625rem;
     padding: .625rem 1rem;
@@ -41,4 +61,60 @@ button:focus {
 .button--large {
     line-height: 2.3;
     padding: 1rem 1.5rem;
+}
+
+.contact-us {
+    padding: 6rem 0 0 0;
+    text-align: center;
+    background-color: rgb(49,61,85);
+    background-color: 
+    linear-gradient(
+        149deg, 
+        rgba(49,61,85,1) 51%, 
+        rgba(53,65,91,1) 51%, 
+        rgba(53,64,90,1) 77%, 
+        rgba(52,63,89,1) 77%);
+        background: rgb(49,61,85);
+        background: linear-gradient(0deg, rgba(49,61,85,1) 47%, rgba(50,62,87,1) 49%, rgba(66,85,128,1) 92%);
+    // background-image: url('../assets/images/FLISOL-LOGO-PNG-Blanco-2.png');
+    // background-size: 350px;
+    // background-position: 100% 150px;
+    // background-repeat: no-repeat;
+    color: #FFF;
+    font-size: 1.55rem;
+    line-height: 1.6;
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
+        background-image: url('../assets/equipo/bg.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        width: 100%;
+        height: 470px;
+        background-size: contain;
+        position: absolute;
+        bottom: 0;
+        opacity: .25;
+        z-index: 0;
+        left: 50%;
+        margin-left: -900px;
+    }
+    p {
+        font-size: 1.22rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.button--contact {
+    line-height: 2.3;
+    padding: 1rem 1.5rem;
+    border-radius: 100px;
+    background: #FFF;
+    color: #343f59;
+    // background-color: var(--second-color);
+    // background-image: linear-gradient(62deg, var(--second-color) 0%, #F7CE68 100%);
+    &:hover {
+        background-position: right center;
+    }
 }

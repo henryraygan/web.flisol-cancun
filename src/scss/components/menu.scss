@@ -166,6 +166,7 @@
             transition: var(--hover-transition);
             padding-bottom: .55rem;
             border-bottom: 2px solid transparent;
+            
             &:hover {
                 border-bottom: 2px solid var(--second-color);
             }
