@@ -53,7 +53,7 @@
                         Daniel Reyes Manuel
                     </p>
                     <button class="button--outline-secondary">
-                        Diseñadora gráfica
+                        Estudiante de la UQRoo.
                     </button>
                     <p class="team-bio">
                         Coordinador de Tequilla Valley Cancún
@@ -70,7 +70,7 @@
                         Líder Sysadmin 
                     </button>
                     <p class="team-bio">
-                        Coordinador de Tequilla Valley Cancún
+                        Amante de las tecnologías libres
                     </p>
                 </div>
                 <div class="team-item">
@@ -84,7 +84,21 @@
                         Ing. de seguridad y monitoreo
                     </button>
                     <p class="team-bio">
-                        Promotor de filosofías FOOS – Infraestructuras sustentables para el desarrollo.
+                        Promotor de filosofías FOSS – Infraestructuras sustentables para el desarrollo.
+                    </p>
+                </div>
+                <div class="team-item">
+                    <img 
+                    class="team-photo"
+                    src="../assets/equipo/henry.jpg" alt="">
+                    <p class="team-name">
+                        Henry Raygan
+                    </p>
+                    <button class="button--outline-secondary">
+                        Desarrollador Frontend
+                    </button>
+                    <p class="team-bio">
+                        Ninja de CSS y usuario Linux
                     </p>
                 </div>
             </div>

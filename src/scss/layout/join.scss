@@ -67,8 +67,6 @@
       @include pxToRem(22px);
       text-transform: uppercase;
       text-align: center;
-      margin-bottom: 1rem;
-
       &::after {
         content: '';
         display: block;
@@ -82,7 +80,7 @@
     .subtitle {
       text-align: center;
       line-height: 1.5;
-      margin: 0.5rem 0;
+      margin: 0;
     }
   }
 
@@ -95,4 +93,54 @@
     align-items: center;
     align-content: center;
   }
+}
+
+.download-paper {
+  margin-top: 2rem;
+}
+
+.page-join {
+  margin-top: 6rem;
+}
+
+.page-joined {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+
+.card-join {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+
+  &__cover {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  }
+  &__content {
+    padding: 2rem;
+    color: #FFF;
+    .title {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      &:after {
+        content: '';
+        display: block;
+        margin-top: 1rem;
+        height: 3px;
+        width: 60px;
+        background-color: var(--second-color);
+      }
+    }
+    .describe {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+  }
+
 }

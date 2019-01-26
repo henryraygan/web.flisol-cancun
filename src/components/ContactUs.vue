@@ -7,9 +7,16 @@
             <p>
                 No dudes en contactarnos, es de la comunidad para la comunidad.
             </p>
-            <a class="button--secondary button--contact" href="">
+            <p class="info-mail">
+                <a href="mailto:info@flisol-cancun.com">
+                    info@flisol-cancun.com
+                </a>
+            </p>
+            <!-- <a 
+                class="button--secondary button--contact" 
+                href="mailto:info@flisol-cancun.com">
                 Envíar mensaje
-            </a>
+            </a> -->
         </div>
         <footer class="main-footer">
             <div class="fl-container">

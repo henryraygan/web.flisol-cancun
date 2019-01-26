@@ -31,3 +31,14 @@
     font-size: $size; //Fallback in px
     font-size: calculateRem($size);
   }
+
+
+
+  .d-flex {
+      display: flex;
+  }
+
+  .justify-content-center {
+      justify-content: center;
+  }
+

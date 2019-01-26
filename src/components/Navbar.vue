@@ -1,12 +1,12 @@
 <template>
-<nav :class="{'main-nav': true, 'is-scrolled': scrolled}">
+<nav :class="{'main-nav': true, 'is-scrolled': scrolled || $route.name != 'home'}">
     <div class="fl-container">
         <div class="main-nav-content">
             <div class="main-brand">
-            <a class="navbar-brand" href="#home">
+            <router-link to="/" class="navbar-brand">
                 <img class="main-logo" src="../assets/images/FLISOL-LOGO-PNG.png" alt="">
                 <span>Flisol Cancún</span>
-            </a>
+            </router-link>
                 <button :class="{'navbar-toggler': true, 'show': isShowMenu}" @click="showMenu">
                 <div></div>
                 <div></div>

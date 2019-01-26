@@ -1,12 +1,11 @@
 <template>
   <div class="home">
-    <navbar></navbar>
     <banner></banner>
-    <join-us></join-us>
     <about-section></about-section>
+    <join-us></join-us>
     <!-- <program></program> -->
     <team></team>
-    <sponsors></sponsors>
+    <!-- <sponsors></sponsors> -->
     <contact-us></contact-us>
   </div>
 </template>
