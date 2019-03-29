@@ -26,6 +26,10 @@
                     </a>
                     </li>
                     <li class="nav-item">
+                        <a href="#evento" class="nav-link">
+                        Evento
+                    </a>
+                    <li class="nav-item">
                         <a href="#organizadores" class="nav-link">
                         Organizadores
                     </a>
@@ -38,9 +42,10 @@
                 </ul>
             </div>
             <a
-            href="#participa" 
+            href="//www.eventbrite.com/e/flisol-cancun-2019-tickets-59421970714" 
+            target="_blank"
             class="button-ticket button--secondary button--small">
-                Participa
+                Entradas
             </a>
         </div>
     </div>

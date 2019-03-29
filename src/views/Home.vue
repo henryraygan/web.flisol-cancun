@@ -3,8 +3,11 @@
     <banner></banner>
     <about-section></about-section>
     <join-us></join-us>
+
+    <program></program>
+
     <!-- <program></program> -->
-    <team></team>
+    <!--team></team -->
     <!-- <sponsors></sponsors> -->
     <contact-us></contact-us>
   </div>
