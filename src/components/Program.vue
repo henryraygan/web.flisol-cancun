@@ -11,70 +11,19 @@
                         7:00
                     </div>
                     <div class="info">
-                        ENTRADA
+                        REGISTRO
                     </div>
                 </div>
-                <div class="schedule-item">
+                <div v-for="speak in schedule" class="schedule-item">
                     <div class="hour">
-                        
+                        {{ speak.hour }}
                     </div>
                     <div class="info">
                         <span class="speaker">
-                            Juan Carlos Geroy Fernández - <span class="role"> Leader SysAdmin at PriceTravel Holding</span> 
+                            {{ speak.speaker }} - <span class="role"> {{ speak.role }} </span> 
                         </span>
                         <p>
-                            Infraestructuras hiperconvergentes con SL y de código abierto
-                        </p>
-                    </div>
-                </div>
-                <div class="schedule-item">
-                    <div class="hour">
-                    </div>
-                    <div class="info">
-                        <span class="speaker">
-                            Luis Enrique Tejeda Rodríguez - <span class="role"> Frontend Developer at Grupo Xcaret</span> 
-                        </span> 
-                        <p>
-                            Docker & CI/CD con Jenkins
-                        </p>  
-                    </div>
-                </div>
-                <div class="schedule-item">
-                    <div class="hour">
-                        
-                    </div>
-                    <div class="info">
-                        <span class="speaker">
-                            Miguel Ángel Torres Govea - <span class="role"> Leader SysAdmin CTI at PriceTravel Holding</span> 
-                        </span>
-                        <p>
-                            Machine Learning con Open Source
-                        </p>
-                    </div>
-                </div>
-                <div class="schedule-item">
-                    <div class="hour">
-                        
-                    </div>
-                    <div class="info">
-                        <span class="speaker">
-                            Adan González - <span class="role"> SysAdmin at PriceTravel Holding</span> 
-                        </span>
-                        <p>
-                            Aprovisionamiento de servidores con Asinble
-                        </p>
-                    </div>
-                </div>
-                <div class="schedule-item">
-                    <div class="hour">
-                        
-                    </div>
-                    <div class="info">
-                        <span class="speaker">
-                            Henry Raygan - <span class="role"> Community Lead at SlothTech</span> 
-                        </span>
-                        <p>
-                            Arquitectura Frontend con Vuejs
+                            {{ speak.title }}
                         </p>
                     </div>
                 </div>
@@ -84,8 +33,16 @@
 </template>
 
 <script>
+
+import schedule from "../assets/data/schedule";
+
 export default {
-  name: "Program"
+  name: "Program",
+  data() {
+    return {
+        schedule
+    };
+    }
 };
 </script>
 

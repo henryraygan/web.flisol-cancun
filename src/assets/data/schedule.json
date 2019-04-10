@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Infraestructuras hiperconvergentes con SL y de código abierto",
+        "speaker": "Juan Carlos Geroy Fernández",
+        "role": "Leader SysAdmin at PriceTravel Holding",
+        "hour": ""
+    },
+    {
+        "title": "Docker & CI/CD con Jenkins",
+        "speaker": "Luis Enrique Tejeda Rodríguez",
+        "role": "Frontend Developer at Grupo Xcaret",
+        "hour": ""
+    },
+    {
+        "title": "Machine Learning con Open Source",
+        "speaker": "Miguel Ángel Torres Govea",
+        "role": "Leader SysAdmin CTI at PriceTravel Holding",
+        "hour": ""
+    },
+    {
+        "title": "Aprovisionamiento de servidores con Asinble",
+        "speaker": "Adan González",
+        "role": "SysAdmin at PriceTravel Holding",
+        "hour": ""
+    },
+    {
+        "title": "Arquitectura Frontend con Vuejs",
+        "speaker": "Henry Raygan",
+        "role":"Community Lead at SlothTech Community",
+        "hour":""
+    }, 
+    {
+        "title": "Software libre: Las 4 libertades fundamentales",
+        "speaker": "Héctor Sebastián Trejo Luna",
+        "role": "Coordinator DevHood Community",
+        "hour": ""
+    }, 
+    {
+        "title": "Desarrollo de aplicaciones para resolver problemáticas sociales",
+        "speaker": "Rafael Lagunas",
+        "role": "CEO - Founder DevHood Community",
+        "hour": ""
+    },
+    {
+        "title": "Hackers y el software libre",
+        "speaker": "José Luis Jarquin Solís",
+        "role": "Vulnerability and Pentesting Analyst at BestDay Travel Group",
+        "hour": ""
+    }
+]

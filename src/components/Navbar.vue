@@ -13,7 +13,8 @@
                 <div></div>
             </button>
             </div>
-            <div :class="{'collapse-menu': true, 'show': isShowMenu}">
+            <div v-if="$route.name != 'conducta'" 
+                 :class="{'collapse-menu': true, 'show': isShowMenu}">
                 <ul class="nav">
                     <li class="nav-item">
                         <a href="#home" class="nav-link">
