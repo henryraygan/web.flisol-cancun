@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,10 +21,9 @@ body {
     // font-family: 'Montserrat', sans-serif;
     // font-family: 'PT Sans', sans-serif;
     // font-family: 'Fira Sans', sans-serif;
-    font-family: 'Fira Mono', monospace;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-
+    // font-family: 'Fira Mono', monospace;
+    // font-family: 'IBM Plex Sans', sans-serif;
+    // font-family: 'Ubuntu', sans-serif;
 
     overflow-x: hidden;
 }

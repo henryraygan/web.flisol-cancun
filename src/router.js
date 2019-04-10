@@ -25,9 +25,9 @@ export default new Router({
       name: 'conducta',
       component: () => import('./views/ConductCode.vue') 
     },
-    { 
-      path: "*", 
-      component: () => import('./views/PageNotFound.vue') 
-    }
+    // { 
+    //   path: "*", 
+    //   component: () => import('./views/PageNotFound.vue') 
+    // }
   ]
 })

@@ -7,11 +7,13 @@
                 <img class="main-logo" src="../assets/images/FLISOL-LOGO-PNG.png" alt="">
                 <span>Flisol Cancún</span>
             </router-link>
-                <button :class="{'navbar-toggler': true, 'show': isShowMenu}" @click="showMenu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </button>
+                <button 
+                    v-if="$route.name != 'conducta'" 
+                    :class="{'navbar-toggler': true, 'show': isShowMenu}" @click="showMenu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
             </div>
             <div v-if="$route.name != 'conducta'" 
                  :class="{'collapse-menu': true, 'show': isShowMenu}">
@@ -30,7 +32,7 @@
                         <a href="#evento" class="nav-link">
                         Evento
                     </a>
-                    <li class="nav-item">
+                    <li v-if="false" class="nav-item">
                         <a href="#organizadores" class="nav-link">
                         Organizadores
                     </a>
@@ -42,12 +44,14 @@
                     </li>
                 </ul>
             </div>
-            <a
-            href="//www.eventbrite.com/e/flisol-cancun-2019-tickets-59421970714" 
-            target="_blank"
-            class="button-ticket button--secondary button--small">
-                Entradas
-            </a>
+            <div>
+                <a
+                    href="//www.eventbrite.com/e/flisol-cancun-2019-tickets-59421970714" 
+                    target="_blank"
+                    class="button-ticket button--secondary button--small">
+                        Entradas
+                </a>
+            </div>
         </div>
     </div>
 </nav>

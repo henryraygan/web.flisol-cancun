@@ -16,13 +16,10 @@
       <div class="fl-container">
         <div class="footer-info">
           <div>
-            Hecho con &#9829; en Cancún by 
-            <router-link to="//www.slothtech.io">
-                SlothTech
-            </router-link>
+            Hecho con &#9829; en Cancún
           </div>
           <div>
-            <router-link to="/codigo-de-conducta">Codigo de Conducta</router-link>
+            <ca href="codigo-de-conducta.html">Código de Conducta</ca>
           </div>
         </div>
       </div>
