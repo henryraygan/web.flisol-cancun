@@ -19,7 +19,7 @@
             Hecho con &#9829; en Cancún
           </div>
           <div>
-            <ca href="codigo-de-conducta.html">Código de Conducta</ca>
+            <a href="codigo-de-conducta.html">Código de Conducta</a>
           </div>
         </div>
       </div>

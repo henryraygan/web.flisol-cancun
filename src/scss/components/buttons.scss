@@ -84,7 +84,7 @@ button:focus {
     font-size: 1.55rem;
     line-height: 1.6;
     position: relative;
-    &::before {
+    /* &::before {
         content: "";
         display: block;
         background-image: url('../assets/equipo/bg.png');
@@ -99,7 +99,7 @@ button:focus {
         z-index: 0;
         left: 50%;
         margin-left: -900px;
-    }
+    }*/
     p {
         font-size: 1.22rem;
         margin-bottom: 2rem;
