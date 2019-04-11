@@ -10,7 +10,7 @@
             <div class="joinus-section__content">
                 
                 <!-- speaker -->
-                <div class="joinus-section__item">
+                <div class="joinus-section__item" v-scroll-reveal="{ delay: 650 }">
                     <img src="../assets/images/ponencia.jpg" alt="">
                     <div class="joinus-section__link">
                         <h3 class="title">Ponencia</h3>
@@ -30,7 +30,7 @@
                 </div>
                 
                 <!-- patrocinador -->
-                <div class="joinus-section__item">
+                <div class="joinus-section__item" v-scroll-reveal="{ delay: 750 }">
                     <img src="../assets/images/patrocinador.jpg" alt="">
                     <div class="joinus-section__link">
                         <h3 class="title">Patrocinador</h3>
@@ -50,7 +50,7 @@
                 </div>
 
                 <!-- projects -->
-                <div class="joinus-section__item">
+                <div class="joinus-section__item" v-scroll-reveal="{ delay: 850 }">
                     <img src="../assets/images/proyecto.jpg" alt="">
                     <div class="joinus-section__link">
                         <h3 class="title">Proyectos</h3>
@@ -70,7 +70,7 @@
                 </div>
 
                 <!-- workshop -->
-                <div class="joinus-section__item">
+                <div class="joinus-section__item" v-scroll-reveal="{ delay: 950 }">
                     <img src="../assets/images/taller.jpg" alt="">
                     <div class="joinus-section__link">
                         <h3 class="title">Taller</h3>

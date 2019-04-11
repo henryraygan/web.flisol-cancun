@@ -8,7 +8,7 @@
           <div class="hour">7:00</div>
           <div class="info">REGISTRO</div>
         </div>
-        <div v-for="speak in schedule" class="schedule-item">
+        <div v-for="(speak, i) in schedule" class="schedule-item" :key="i" v-scroll-reveal="{ delay: (100 * i) }">
           <div class="hour">{{ speak.hour }}</div>
           <div class="info">
             <span class="speaker">
